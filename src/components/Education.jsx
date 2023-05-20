@@ -18,7 +18,7 @@ const Details = ({ type, time, place, info }) => {
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {type}
         </h3>
-        <span className="capitalize font-medium text-dark/75 dark:text-light/75  xs:text-sm">
+        <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {place}
         </span>
         <p className="font-medium w-full md:text-sm">{info}</p>
@@ -45,27 +45,19 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type={" Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            placee={"Massachusetts Institute Of Technology (MIT)"}
+            type={"Manisa Celal Bayar University"}
+            time={"2021-2023"}
+            place={"Department of Computer Technologies"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "During my university education, I studied at Manisa Celal Bayar University in the Department of Computer Technologies. Within this program, I acquired intermediate knowledge in object-oriented programming for mobile and web applications, as well as a solid understanding of networking concepts. Additionally, I developed advanced skills in visual programming using the Java language to create applications."
             }
           />
           <Details
-            type={" Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            placee={"Massachusetts Institute Of Technology (MIT)"}
+            type={"Siirt Kurtalan IHL High School"}
+            time={"2015-2019"}
+            place={"-"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-            }
-          />
-          <Details
-            type={" Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            placee={"Massachusetts Institute Of Technology (MIT)"}
-            info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "My relationship with computers started in high school. I was deeply fascinated by everything related to computers and technology. The development of the internet, the power of programming languages and the endless possibilities of the digital world further increased my curiosity. I started researching various resources and trainings to satisfy this curiosity and improve myself in the field of computers. I tried to learn about coding languages, algorithm logic and computer systems. I gained experience by creating my own projects and in this process I found myself in the computer world. My interest in computers became a passion that started in this period of my life and continues to excite me today."
             }
           />
         </ul>
