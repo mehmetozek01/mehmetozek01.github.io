@@ -166,10 +166,10 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
+                title="Portfolio"
                 img={project3}
-                link="/"
-                github={"/"}
+                link="https://github.com/mehmetozek01/portfolio"
+                github={"https://github.com/mehmetozek01/portfolio"}
                 type={"Featured Project"}
               />
             </div>
